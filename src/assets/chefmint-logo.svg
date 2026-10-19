@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="mintGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+  </defs>
+
+  <!-- Chef Hat Outline (matching the Fridge to Fork banner logo) -->
+  <path
+    d="M28 82 H68 M28 89 H68"
+    stroke="#10B981"
+    stroke-width="5"
+    stroke-linecap="round"
+  />
+
+  <path
+    d="M28 82 C 24 64, 12 56, 18 42 C 22 30, 34 32, 40 38 C 44 20, 60 16, 68 28 C 76 18, 90 28, 86 46 C 88 56, 78 66, 68 82"
+    stroke="#10B981"
+    stroke-width="5.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    fill="none"
+  />
+
+  <!-- Vertical pleats / texture on chef hat -->
+  <path
+    d="M40 76 V 56 M52 76 V 50 M64 76 V 56"
+    stroke="#10B981"
+    stroke-width="3"
+    stroke-linecap="round"
+    opacity="0.35"
+  />
+
+  <!-- Fresh Mint Leaf sprouting from the right brim -->
+  <g transform="translate(62, 48)">
+    <!-- Leaf Blade -->
+    <path
+      d="M2 34 C 4 18, 16 8, 38 2 C 34 22, 26 36, 2 34 Z"
+      fill="url(#leafGrad)"
+      stroke="#047857"
+      stroke-width="2.5"
+      stroke-linejoin="round"
+    />
+    <!-- Center Leaf Vein -->
+    <path
+      d="M4 33 Q 18 20 36 3"
+      stroke="#ECFDF5"
+      stroke-width="2"
+      stroke-linecap="round"
+    />
+    <!-- Side Veins -->
+    <path
+      d="M12 25 Q 18 27 22 30 M18 18 Q 24 19 28 22 M24 12 Q 29 12 32 14"
+      stroke="#ECFDF5"
+      stroke-width="1.25"
+      stroke-linecap="round"
+      opacity="0.85"
+    />
+  </g>
+</svg>

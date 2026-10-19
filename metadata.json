@@ -1,0 +1,8 @@
+{
+  "name": "ChefMint AI",
+  "description": "Snap your fridge, zero out food waste, and create instant gourmet recipes with NVIDIA Nemotron models.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
